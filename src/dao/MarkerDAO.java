@@ -11,7 +11,7 @@ public class MarkerDAO {
     private List<MarkerDTO> markerList;
 
     public MarkerDAO() {
-        this.markerList = new ArrayList<>(); // Initialize the list in the constructor
+        this.markerList = new ArrayList<>();
     }
 
     public int addMarkerDetails(MarkerDTO dto) {
